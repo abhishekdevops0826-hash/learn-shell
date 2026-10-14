@@ -12,4 +12,4 @@ echo "execution completed at : $END_TIME"
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
-echo "Total Time Taken= $(TOTAL_TIME)"
+echo "Total Time Taken:  $TOTAL_TIME"
