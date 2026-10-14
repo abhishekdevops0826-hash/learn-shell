@@ -4,7 +4,7 @@
 ### Speacial variables###
 
 echo "All args passed to the script : $@"
-
+echo "All args passed to the script : $*"
 echo "no of arguments passed to the script: $#"
 echo "First variable passed: $1"
 echo "Script name: $0"
@@ -18,6 +18,6 @@ sleep 10 &
 
 echo "PID of the command running in the background now:$!"
 wait $! # script waits till $! command is complete
-echo"line number:$LINENO"
+echo "line number:$LINENO"
 echo "previous command exit status:$?"
 echo "Total time executed for this script:$SECONDS"
