@@ -14,4 +14,4 @@ echo "Count is:$COUNT"
 
 FRUITS=("Apple" "Banana" "Papapaya") # this is  called a array
 
-echo "All Fruits: $FRUITS[@]"
+echo "All fruits: ${FRUITS[@]}"
