@@ -12,5 +12,5 @@ COUNT=COUNT+1
 
 echo "Count is:$COUNT"
 
-FRUITS=(("Apple" "Banana" "Papaya") )
+FRUITS="Apple" "Banana" "Papaya"
 echo "All fruits: ${FRUITS[@]}"
