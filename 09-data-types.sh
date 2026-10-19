@@ -12,5 +12,3 @@ echo "All fruits: ${FRUITS[@]}"
 COUNT=COUNT+1
 
 echo "Count is:$COUNT"
-
-echo $COUNT
