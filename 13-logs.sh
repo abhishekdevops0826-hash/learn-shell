@@ -8,7 +8,7 @@ log_file="${log_folder}/${0}.log"
         exit 1
     fi
 mkdir -p $log_folder 
-echo "script started execution at $(date + "%F %T")"
+echo "script started execution at $(date +"%F %T")"
 
 validate(){
     if [ $1 -ne 0 ]; then
@@ -26,4 +26,4 @@ dnf install mysql -y &>> $log_file
 validate $? "Mysql installation"
 echo "still processed..."
 
-echo "script execution ended at ${date + "%F %T"}"
+echo "script execution ended at $(date +"%F %T")"
