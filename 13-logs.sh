@@ -1,7 +1,7 @@
 #!/bin/bash
 user_id=$(id -u)
-log_folder = "/var/log/shell-practice-new"
-log_file = "${log_folder}/${0}.log"
+log_folder="/var/log/shell-practice-new"
+log_file="${log_folder}/${0}.log"
 
     if [ $user_id -ne 0 ]; then
         echo "Please run this script with sudo access.."
